@@ -8,47 +8,47 @@ div {
 }
 
 #header {
-    height: 40px;
+    height: 10px;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(240, 159, 220);
     position: fixed;
     z-index: 1;
 }
 
 .footer {
-    height: 40px;
+    height: 10px;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(240, 159, 220);
     position: relative;
     clear: both;
 }
 
 .left-side {
     height: 1010px;
-    width: 50px;
-    background-color: aqua;
+    width: 10px;
+    background-color: rgb(236, 182, 250);
     float: left;
-    position: fixed;
+    position: inherit;
 }
 
 .right-side {
     height: 1010px;
-    width: 50px;
-    background-color: aqua;
+    width: 10px;
+    background-color: rgb(236, 182, 250);
     float: right;
     position: inherit;
 }
 
 .content {
     display: inline-block;
-    margin-top: 6px;
-    margin-left: 60px;
+    margin-top: 3px;
+    margin-left: 85px;
     width: 75%;
     height: 1010px;
 }
 
 .heading {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 20px
@@ -59,4 +59,19 @@ div {
     margin-top: 10px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
