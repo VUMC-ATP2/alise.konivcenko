@@ -12,7 +12,7 @@ public class MyFirstJavaCode {
         %s = text/string
         %b = boolean
         %f - floating
-        %1.f = 1 number after comma
+        %.1f = 1 number after comma
         \n = new line after this
          */
         System.out.printf("My house has %d floors\n", floorCount);
