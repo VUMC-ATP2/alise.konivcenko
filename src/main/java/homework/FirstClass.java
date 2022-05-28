@@ -1,29 +1,28 @@
 package homework;
 
-import java.sql.SQLOutput;
+
 
 public class FirstClass {
     public static void main(String[] args) {
 // first task
         System.out.print("\nFirst task\n\n");
         String country = "USA";
-        int USApopulation = 329824950;
-        int USAarea = 9833520;
-        String capitalOfUSA = "Washington";
-        String USAlanguage = "English";
-        boolean USAisEUmember = false;
-        boolean USAnotEUmember = true;
-        String USAcurrency = "$";
-        System.out.printf("Current population of the %s is %d.\n", country, USApopulation);
-        System.out.printf("Total area of the %s is %d km2.\n", country, USAarea);
-        System.out.printf("%s is the capital of %s.\n", capitalOfUSA, country);
-        System.out.printf("%s most commonly used language in %s.\n", USAlanguage, country);
-        if(USAisEUmember) {
+        int populationInUsa = 329824950;
+        int areaOfUsa = 9833520;
+        String capitalOfUsa = "Washington";
+        String languageOfUsa = "English";
+        boolean isUsaEuMember = false;
+        String currencyOfUsa = "$";
+        System.out.printf("Current population of the %s is %d.\n", country, populationInUsa);
+        System.out.printf("Total area of the %s is %d km2.\n", country, areaOfUsa);
+        System.out.printf("%s is the capital of %s.\n", capitalOfUsa, country);
+        System.out.printf("%s most commonly used language in %s.\n", languageOfUsa, country);
+        if(isUsaEuMember) {
             System.out.println("USA is EU member.");
         } else {
             System.out.println("USA is not EU member.");
         }
-        System.out.printf("%s is the currency of the USA.\n", USAcurrency);
+        System.out.printf("%s is the currency of the USA.\n", currencyOfUsa);
 
 // second task
         System.out.print("\nSecond task\n\n");
